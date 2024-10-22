@@ -1,0 +1,24 @@
+#assignment {
+    background: linear-gradient(152deg, #2d0a7e 50%, #e2e8f0 50%);
+    border: 2px solid white;
+}
+.icon-wrapper {
+    position: relative;
+}
+.icon-circle {
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; 
+    border-radius: 50%;
+    border: 3px solid #2d0a7e;
+}
+.hover-box {
+    transition: transform 1s;
+}
